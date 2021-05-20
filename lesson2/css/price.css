@@ -1,20 +1,23 @@
 .price-section {
     background-color:#E5E5E5;
-    padding: 80px 0;
+    padding: 80px 0 84px 0;
 }
 
 .price-title {
     margin-bottom: 34px;
     text-align: center;
+    color: #212121;
 }
 
-.price-line {
-    margin: 0 auto 34px auto;
+.price-title::after {
+    border-top: 1px solid #D98943;
+    margin: 34px auto 34px auto;
 }
 
 .price-description {
     text-align: center;
     margin-bottom: 63px;
+    color: #86878B;
 }
 
 .pricerow {
@@ -25,61 +28,74 @@
 }
 
 .pricerow-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
     width: 340px;
     margin: 0 15px;
 }
 
 .pricerow-item__title {
+    padding: 15px 0 8px 0px;
+    margin-bottom: 1px;
+    background-color: #333333;
+}
+
+.pricerow-item__title h4 {
     font-size: 20px;
     font-weight: 700;
     line-height: 27px;
     color: #FFFFFF;
-    padding: 15px 0 8px 0px;
     text-align: center;
-    background-color: #333333;
-    margin-bottom: 1px;
 }
 
 .pricerow-item__price {
+    padding: 26px 0 33px 0;
+    background-color: #333333;
+    margin-bottom: 2px;
+}
+
+.pricerow-item__price span {
+    display: block;
     font-size: 35px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     line-height: 41px;
     color: #FFFFFF;
-    padding: 26px 0 33px 0;
     text-align: center;
-    background-color: #333333;
-    margin-bottom: 2px;
 }
 
 .pricerow-item__subtitle {
+    padding: 17px 0 14px 0;
+    background-color: #333333;
+    margin-bottom: 4px;
+}
+
+.pricerow-item__subtitle:hover {
+    background-color: #D98943;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.pricerow-item__subtitle p {
     font-size: 14px;
     font-weight: 600;
     line-height: 19px;
     color: rgba(255, 255, 255, 0.5);
-    padding: 17px 0 14px 0;
     text-align: center;
-    background-color: #333333;
-    margin-bottom: 4px;
-}
-
-.pricerow-item__subtitle-orange {
-    background-color: #D98943;
-    font-weight: 800;
-    padding: 17px 0 14px 0;
 }
 
 .pricerow-item__text {
+    padding: 10px 0 11px 0;
+    background-color: #FFFFFF;
+    margin-bottom: 4px;
+}
+
+.pricerow-item__text:last-child {
+    margin-bottom: 0;
+}
+
+.pricerow-item__text p {
     font-size: 14px;
     font-weight: 400;
     line-height: 19px;
     color: #86878B;
-    padding: 10px 0 11px 0;
     text-align: center;
-    background-color: #FFFFFF;
-    margin-bottom: 4px;
 }
