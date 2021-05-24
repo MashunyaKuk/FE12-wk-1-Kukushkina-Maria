@@ -66,11 +66,11 @@
     padding: 17px 0 14px 0;
     background-color: #333333;
     margin-bottom: 4px;
+    transition: 0.4s;
 }
 
 .pricerow-item__subtitle:hover {
     background-color: #D98943;
-    transition: 0.4s;
     cursor: pointer;
 }
 

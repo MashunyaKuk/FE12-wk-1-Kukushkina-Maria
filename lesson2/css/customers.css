@@ -30,6 +30,9 @@
 .customersrow-item {
     width: 298px;
     margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .customersrow-item__comment {
@@ -39,6 +42,17 @@
     margin-bottom: 22px;
     position: relative;
     z-index: 1;
+    flex-grow: 1;
+}
+
+.customersrow-item__comment::after {
+    content: "";
+    border: 17px solid transparent;
+    border-top: 17px solid #E2E2E2;    
+    position: absolute;
+    display: block;
+    top: 100%;
+    left: 39px;
 }
 
 .customersrow-item__comment p {
@@ -52,29 +66,20 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    position: relative;
-}
-
-.custommersrow-item__author::before {
-    content: "";
-    width: 17px;
-    height: 17px;
-    background: #E2E2E2;
-    position: absolute;
-    display: block;
-    top: -32px;
-    left: 39px;
-    transform: rotate(45deg);
 }
 
 .custommersrow-item__authoravatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custommersrow-item__authoravatar img {
     width: 70px;
     height: 70px;
-    background-image: url("../img/authoravatar.png");
-    background-size: cover;
-    background-repeat: no-repeat;
     border-radius: 50%;
 }
+
 .custommersrow-item__authorname {
     text-align: right;
 }

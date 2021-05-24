@@ -42,8 +42,7 @@
 
 .axure-button {
     margin-bottom: 38px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .axure-downloadbutton {
@@ -54,6 +53,11 @@
     font-size: 15px;
     line-height: 20px;
     cursor: pointer;
-    width: 135px;
     color: #FFFFFF;
+    transition: 0.4s;
+}
+
+.axure-downloadbutton:hover {
+    background-color: #D98943;
+    font-size: 17px;
 }
