@@ -9,11 +9,11 @@
     align-items: center;
 }
 
-.socialrow_text {
+.socialrow__text {
     width: 365px;
 }
 
-.socialrow_text h4 {
+.socialrow__text h3 {
     color: #333333;
     font-weight: 700;
     font-size: 20px;
@@ -21,35 +21,40 @@
     margin-bottom: 14px;
 }
 
-.socialrow_text p {
+.socialrow__text p {
     color: #86878B;
     font-family: 400;
     font-size: 14px;
     line-height: 19px;
 }
 
-.socialrow_iconbox {
+.socialrow__iconbox {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.socialrow_icon {
+.socialrow__icon {
     margin-right: 40px;
 }
-.socialrow_icon:last-child {
+
+.socialrow__icon p {
+    display: block;
+}
+
+.socialrow__icon:last-child {
     margin-right: 0;
 }
 
-.socialrow_icon i {
+.socialrow__icon i {
     color: #86878B;
     font-size: 34px;
     font-weight: 400;
     transition: 00.4s;
 }
 
-.socialrow_icon i:hover {
+.socialrow__icon i:hover {
     color: #D98943;
     transform: scale(1.5, 1.5);
     cursor: pointer;

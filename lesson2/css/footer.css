@@ -10,22 +10,26 @@
     margin-bottom: 18px;
 }
 
-.footerrow_icon {
+.footerrow__icon {
     margin-right: 30px;
 }
 
-.footerrow_icon:last-child {
+.footerrow__icon:last-child {
     margin-right: 0;
 }
 
-.footerrow_icon i {
+.footerrow__icon a {
+    display: block;
+}
+
+.footerrow__icon i {
     font-size: 20px;
     color: rgba(255, 255, 255, 0.7);
     font-weight: 400;
     transition: 0.4s;
 }
 
-.footerrow_icon i:hover {
+.footerrow__icon i:hover {
     color: #D98943;
     transform: scale(1.5, 1.5);
     cursor: pointer;

@@ -10,6 +10,7 @@
 .axure-container {
     position: relative;
     z-index: 1;
+    text-align: center;
 }
 
 .axure-section::after {
@@ -41,23 +42,24 @@
 }
 
 .axure-button {
+    display: inline-block;
     margin-bottom: 38px;
-    text-align: center;
-}
-
-.axure-downloadbutton {
     background-color: Transparent;
     padding: 11px 26px;
     border: 1px solid #FFFFFF;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 20px;
     cursor: pointer;
-    color: #FFFFFF;
     transition: 0.4s;
 }
 
-.axure-downloadbutton:hover {
+.axure-button:hover {
     background-color: #D98943;
-    font-size: 17px;
+    transform: scale(1.2, 1.2);
 }
+
+.axure-downloadbutton {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
