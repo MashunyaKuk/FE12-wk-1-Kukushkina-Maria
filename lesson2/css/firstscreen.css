@@ -27,7 +27,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin: 0 -15px;
 }
 
@@ -43,7 +43,7 @@
     color: #FFFFFF;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 3.75rem;
     line-height: 70px;
     margin-bottom: 32px;
 }
@@ -79,30 +79,29 @@
 
 .firstscreenrow-item__button:hover {
     background-color: #D98943;
-    transform: scale(1.2, 1.2);
+    transform: scale(1.2) translate(10%, 0);
 }
 
 .firstscreenrow-item__downloadbutton {
     font-weight: 600;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 20px;
     color: #FFFFFF;
 }
 
-.firstscreenrow-item_form {
+.firstscreenrow-item__form {
     width: 370px;
     background-color: #FFFFFF;
     border-radius: 8px;
 }
 
 .firstscreenrow-item__formcontent {
-    margin-bottom: 25px;
-    padding: 15px 59px;
+    padding: 15px 59px 25px 59px;
 }
 
 .firstscreenrow-item__formtitle {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 27px;
     margin-bottom: 40px;
     color: #333333;
@@ -123,7 +122,7 @@
 .firstscreenrow-item__formlabel {
     display: block;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #BDBDBD;
     margin-bottom: 16px;
 }
@@ -141,30 +140,17 @@
     outline: none;
 }
 
-
-.firstscreenrow-item__formbutton {
+.firstscreenrow-item__formbuttonsubmit {
     background-color: #D98943;
     text-align: center;
-    transition: 0.4s;
     padding: 18px 0;
     border-radius: 0 0 8px 8px;
-}
-
-.firstscreenrow-item__formbutton:active {
-    background-color: #808080;
-}
-
-
-.firstscreenrow-item__formbuttonsubmit {
     display: block;
     width: 100%;
-    background-color: transparent;
     cursor: pointer;
     border: none;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 20px;
     color: #FFFFFF;
 }
-
-

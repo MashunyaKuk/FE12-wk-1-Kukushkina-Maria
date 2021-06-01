@@ -30,6 +30,12 @@
 .pricerow-item {
     width: 340px;
     margin: 0 15px;
+    transition: 0.6s;
+}
+
+.pricerow-item:hover {
+    transform: translate(0, -10%);
+    box-shadow: 5px 5px 5px 5px #86878B;
 }
 
 .pricerow-item__title {
@@ -39,7 +45,7 @@
 }
 
 .pricerow-item__title h4 {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     line-height: 27px;
     color: #FFFFFF;
@@ -54,7 +60,7 @@
 
 .pricerow-item__price span {
     display: block;
-    font-size: 35px;
+    font-size: 2.1875rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     line-height: 41px;
@@ -75,7 +81,7 @@
 }
 
 .pricerow-item__subtitle p {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
     line-height: 19px;
     color: rgba(255, 255, 255, 0.5);
@@ -93,7 +99,7 @@
 }
 
 .pricerow-item__text p {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     line-height: 19px;
     color: #86878B;

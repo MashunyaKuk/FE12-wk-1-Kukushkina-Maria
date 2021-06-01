@@ -23,12 +23,12 @@
 .contactsrow {
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: initial; */
-    margin: 0 -15px 69px 0;
+    flex-wrap: wrap;
+    margin-bottom: 69px;
 }
 
 .contactsform-item {
-    width: 478px;
+    width: 40%;
     margin: 0 15px;
 }
 
@@ -43,7 +43,7 @@
 .contactsform-item__formlabel {
     display: block;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #BDBDBD;
     margin-bottom: 15px;
 }
@@ -80,12 +80,13 @@
     padding: 11px 32px;
     transition: 0.4s;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 20px;
     color: #FFFFFF;
 }
 
 .contactsform-button__submit:hover {
     transform: scale(1.2, 1.2);
+    box-shadow: 5px 5px 5px 5px #86878B;
 }
 
